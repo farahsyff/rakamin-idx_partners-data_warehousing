@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_3Jf_MLeLEe68v-PFzeeGWQ" name="Staging" id="_xTB7ELeLEe68v-PFzeeGWQ" label="Staging" dataPackage="_Pci0cLgdEe6vPvXUrKyw0Q" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://FARAH:1433/Staging;" dbVersionString="JTDS" Port="1433" Username="farahsf" Password="enc:system.encryption.key.v1:yhc6WSYXAbHvaBULToLcQKYVwe5YPciRlsAfp0FdH+j3DijYDmI=" ServerName="FARAH" DatasourceName="" FileFieldName="" SID="Staging" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_3Jk3sLeLEe68v-PFzeeGWQ" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_3KQ0MLeLEe68v-PFzeeGWQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_3KalMLeLEe68v-PFzeeGWQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_3KalMbeLEe68v-PFzeeGWQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_3KalMreLEe68v-PFzeeGWQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_3KalM7eLEe68v-PFzeeGWQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_3KalNLeLEe68v-PFzeeGWQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_3KalNbeLEe68v-PFzeeGWQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_PaEvQLgdEe6vPvXUrKyw0Q" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_PaEvQbgdEe6vPvXUrKyw0Q" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_PaEvQrgdEe6vPvXUrKyw0Q" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_3Jk3sbeLEe68v-PFzeeGWQ" key="CONN_PARA_KEY_USERNAME" value="farahsf"/>
+    <parameters xmi:id="_nU8E0LeMEe68v-PFzeeGWQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Pci0cLgdEe6vPvXUrKyw0Q" name="Staging" dataManager="_3Jf_MLeLEe68v-PFzeeGWQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_PclQsLgdEe6vPvXUrKyw0Q" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
